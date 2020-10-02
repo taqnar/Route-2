@@ -2,9 +2,9 @@ const classCode = document.getElementById('classCode');
 
 function checkClass() {
     if (classCode.value === 'root9') {
-        window.location.replace('../pages/class9.html');
+        window.location.replace('../Route-2/pages/class9.html');
     } else if (classCode.value === 'class10') {
-        window.location.replace('../pages/class10.html');
+        window.location.replace('../Route-2/pages/class10.html');
     } else if (classCode.value === '') {
         alert('Oops!!\nPlease enter the code to continue ....');
     } else {
