@@ -13,13 +13,13 @@
             integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
             crossorigin="anonymous"
         />
-        <link rel="stylesheet" href="./styles/styles.css" />
         <title>Route 2 Online Tutors</title>
     </head>
+
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">
-                <img src="./assets/logo.svg" alt="" />
+            <a class="navbar-brand" href="/">
+                <img src="../assets/logo.svg" alt="" />
             </a>
             <button
                 class="navbar-toggler"
@@ -36,7 +36,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="/">
                             Home <span class="sr-only">(current)</span></a
                         >
                     </li>
@@ -46,27 +46,18 @@
                 </ul>
             </div>
         </nav>
-
-        <div class="login-section">
-            <div class="form-group">
-                <label for="exampleInputEmail1">Enter Code:</label>
-                <input
-                    type="text"
-                    class="form-control"
-                    id="classCode"
-                    aria-describedby="emailHelp"
-                />
-                <small class="form-text text-muted">
-                    Enter the code given by Route 2 Online Tutors.
-                </small>
-            </div>
-            <button class="btn btn-primary" onclick="checkClass()">
-                Let's Start
-            </button>
+        <div
+            style="
+                min-height: 80vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            "
+        >
+            <a href="./class10.today.parts.html">
+                <button class="btn btn-primary">Get Today's Class</button>
+            </a>
         </div>
-
-        <!-- normal js here -->
-        <script src="./js/app.js"></script>
 
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script
